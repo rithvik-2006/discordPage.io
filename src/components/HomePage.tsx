@@ -16,7 +16,7 @@ export default function LandingPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-100">
+    <div className="min-h-screen bg-neutral-950 text-gray-100">
       {/* Header */}
       <header className="container mx-auto px-4 py-6">
         <nav className="flex justify-between items-center">
@@ -49,7 +49,7 @@ export default function LandingPage() {
               { icon: <Music className="w-12 h-12 mb-4 text-purple-500" />, title: "Music Bots", description: "Stream high-quality music and manage playlists with ease." },
               { icon: <Zap className="w-12 h-12 mb-4 text-purple-500" />, title: "Utility Bots", description: "Streamline server management with custom commands and automations." },
             ].map((bot, index) => (
-              <div key={index} className="bg-gray-700 p-6 rounded-lg text-center">
+              <div key={index} className="bg-neutral-800 p-6 rounded-lg text-center">
                 {bot.icon}
                 <h3 className="text-xl font-semibold mb-2">{bot.title}</h3>
                 <p className="text-gray-400">{bot.description}</p>
@@ -69,7 +69,7 @@ export default function LandingPage() {
               { name: "Sarah", role: "Gaming Clan Leader", quote: "Our gaming bot tracks stats and organizes tournaments flawlessly. It's a game-changer!" },
               { name: "Mike", role: "Music Enthusiast", quote: "The music bot created for our server has the best sound quality and features I've ever experienced." },
             ].map((testimonial, index) => (
-              <div key={index} className="bg-gray-800 p-6 rounded-lg">
+              <div key={index} className="bg-neutral-800 p-6 rounded-lg">
                 <div className="flex items-center mb-4">
                   <Star className="w-5 h-5 text-yellow-500 mr-1" />
                   <Star className="w-5 h-5 text-yellow-500 mr-1" />
@@ -134,7 +134,7 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 py-8">
+      <footer className="bg-neutral-900 py-8">
         <div className="container mx-auto px-4 text-center text-gray-400">
           <p>&copy; 2024 DiscordBotCraft. All rights reserved.</p>
         </div>
