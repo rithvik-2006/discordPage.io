@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { ChevronRight, Bot, Shield, Gamepad2, Music, Zap, Star } from "lucide-react"
+import Link from 'next/link'
 
 export default function LandingPage() {
   const [name, setName] = useState('')
@@ -22,10 +23,13 @@ export default function LandingPage() {
         <nav className="flex justify-between items-center">
           <div className="text-2xl font-bold text-purple-500">DiscordBotCraft</div>
           <div className="space-x-4">
+            <Link href="/">
           <Button variant="ghost">Home</Button>
-            <Button variant="ghost">Features</Button>
-            <Button variant="ghost">Testimonials</Button>
-            <Button variant="ghost">Contact</Button>
+          </Link>
+         
+          <Link href="#"><Button variant="ghost">Features</Button></Link>
+            <Link href="#"><Button variant="ghost">Testimonials</Button></Link>
+            <Link href="#"><Button variant="ghost">Contact</Button></Link>
           </div>
         </nav>
       </header>
