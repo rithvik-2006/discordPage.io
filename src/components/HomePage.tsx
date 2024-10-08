@@ -22,6 +22,7 @@ export default function LandingPage() {
         <nav className="flex justify-between items-center">
           <div className="text-2xl font-bold text-purple-500">DiscordBotCraft</div>
           <div className="space-x-4">
+          <Button variant="ghost">Home</Button>
             <Button variant="ghost">Features</Button>
             <Button variant="ghost">Testimonials</Button>
             <Button variant="ghost">Contact</Button>
