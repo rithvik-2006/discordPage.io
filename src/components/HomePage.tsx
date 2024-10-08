@@ -30,7 +30,7 @@ export default function LandingPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="container mx-auto px-4 py-20 text-center">
+      <section className="container bg-neutral-950 mx-auto px-4 py-20 text-center">
         <h1 className="text-5xl font-bold mb-6">Custom Discord Bots Tailored to Your Needs</h1>
         <p className="text-xl mb-8 text-gray-400">Elevate your Discord server with personalized bots designed just for you</p>
         <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
@@ -39,7 +39,7 @@ export default function LandingPage() {
       </section>
 
       {/* Bot Types Section */}
-      <section className="bg-gray-800 py-20">
+      <section className="bg-neutral-950 py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center">Bot Types & Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -87,7 +87,7 @@ export default function LandingPage() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="bg-gray-800 py-20">
+      <section className="bg-neutral-900 py-20">
         <div className="container mx-auto px-4 max-w-2xl">
           <h2 className="text-3xl font-bold mb-8 text-center">Request Your Custom Bot</h2>
           <form onSubmit={handleSubmit} className="space-y-6">
@@ -98,7 +98,7 @@ export default function LandingPage() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
-                className="bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-purple-500 focus:border-purple-500"
+                className="bg-neutral-700 border-gray-600 placeholder-gray-400 text-white focus:ring-purple-500 focus:border-purple-500"
                 placeholder="Your name"
               />
             </div>
@@ -110,7 +110,7 @@ export default function LandingPage() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-purple-500 focus:border-purple-500"
+                className="bg-neutral-700 border-gray-600 placeholder-gray-400 text-white focus:ring-purple-500 focus:border-purple-500"
                 placeholder="your@email.com"
               />
             </div>
@@ -121,7 +121,7 @@ export default function LandingPage() {
                 value={requirements}
                 onChange={(e) => setRequirements(e.target.value)}
                 required
-                className="bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-purple-500 focus:border-purple-500"
+                className="bg-neutral-700 border-gray-600 placeholder-gray-400 text-white focus:ring-purple-500 focus:border-purple-500"
                 placeholder="Describe your ideal Discord bot..."
                 rows={4}
               />
