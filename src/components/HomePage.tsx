@@ -38,9 +38,7 @@ export default function LandingPage() {
       <section className="container bg-neutral-950 mx-auto px-4 py-20 text-center">
         <h1 className="text-5xl font-bold mb-6">Custom Discord Bots Tailored to Your Needs</h1>
         <p className="text-xl mb-8 text-gray-400">Elevate your Discord server with personalized bots designed just for you</p>
-        <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
-          Get Your Custom Bot <ChevronRight className="ml-2" />
-        </Button>
+        
       </section>
 
       {/* Bot Types Section */}

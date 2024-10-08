@@ -44,10 +44,9 @@ export function MainBackground() {
         </Link>
         </div>
         </h1>
+  
         
-
         
-        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10"></p>
       </div>
       <BackgroundBeams />
     </div>
