@@ -40,7 +40,7 @@ export function MainBackground() {
           Make Your Custom Discord Bot
           <div className="flex justify-center">
         <Link href="/MainPage">
-          <Button variant="outline" className="text-white mt-4">Get Started</Button>
+          <Button variant="outline" className="text-white mt-4 size-base">Get Started</Button>
         </Link>
         </div>
         </h1>
